@@ -1,8 +1,7 @@
 * {
     margin:0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Young Serif', serif;
+    font-family: 'Space Mono', monospace;
     scroll-behavior: smooth;
 }
 
@@ -16,7 +15,7 @@ body {
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(acadia1.jpeg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Documents/img/acadia1.jpeg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -149,7 +148,7 @@ nav .fa {
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 3rem;
     font-weight: 600;
     padding-bottom: 20px;
 }
@@ -180,10 +179,12 @@ h3 {
 
 .aboutme-col:hover {
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    opacity: 0.8;
+    background-color: #ff964f;
 }
 
 .projects h1 {
-    font-size: 36px;
+    font-size: 3rem;
     font-weight: 600;
     width: 80%;
     margin: auto;
@@ -221,6 +222,9 @@ h3 {
 
 .projects-col:hover {
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    background-size: 105%;
+    opacity: 0.8;
+    background-color: #ff964f;
 }
 
 .resume {
@@ -233,7 +237,7 @@ h3 {
 .contact {
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(acadia2.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Documents/img/acadia2.jpeg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
